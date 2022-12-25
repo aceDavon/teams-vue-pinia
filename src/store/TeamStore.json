@@ -1,0 +1,30 @@
+{
+  "name": "Rock n Rocks Team",
+  "limit": 6,
+  "members": [
+    {
+      "id": 1,
+      "name": "John Omachi",
+      "email": "examplemailer1@local.com",
+      "status": "active"
+    },
+    {
+      "id": 1,
+      "name": "Samuel Jonathan",
+      "email": "examplemailer1@local.com",
+      "status": "active"
+    },
+    {
+      "id": 1,
+      "name": "Victor Onoja",
+      "email": "examplemailer2@local.com",
+      "status": "active"
+    },
+    {
+      "id": 1,
+      "name": "Anthony Alewo",
+      "email": "examplemailer4@local.com",
+      "status": "active"
+    }
+  ]
+}
