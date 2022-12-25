@@ -15,7 +15,10 @@ const teams = useStore();
         :src="`https://i.pravatar.cc/50?u=${team.email}`"
         :alt="`${team.email}'s-img'`"
       />
-      <span class="text-xl">{{ team.name }}</span>
+      <div class="flex flex-col space-y-2">
+        <span class="text-xl">{{ team.name }}</span>
+        <span class="text-xs text-gray-500">{{ team.email }}</span>
+      </div>
     </div>
     <span class="text-green-600">{{ team.status }}</span>
   </div>
